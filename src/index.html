@@ -17,7 +17,7 @@
 
         <legend>Personal information</legend>
 
-        <div>
+        <div class="block">
           <label>
             Surname:
             <input
@@ -25,11 +25,12 @@
               minlength="3"
               maxlength="20"
               autocomplete="off"
-              name="surname">
+              name="surname"
+            >
           </label>
         </div>
 
-        <div>
+        <div class="block">
           <label>
             Name:
             <input
@@ -37,11 +38,12 @@
               minlength="3"
               maxlength="20"
               autocomplete="off"
-              name="name">
+              name="name"
+            >
           </label>
         </div>
 
-        <div>
+        <div class="block">
           <label>
             How old are You?
             <input
@@ -49,18 +51,19 @@
               min="1"
               max="100"
               value="12"
-              name="age">
+              name="age"
+            >
           </label>
         </div>
 
-        <div>
+        <div class="block">
           <label>
             Full date of birth:
             <input type="date" name="date">
           </label>
         </div>
 
-        <div>
+        <div class="block">
           <label>
             I accept the term of the agreement
             <input type="checkbox" name="check">
@@ -70,18 +73,19 @@
 
       <fieldset class="fielder">
         <legend>Registration</legend>
-        <div>
+        <div class="block">
           <label>
             E-mail:
             <input
               type="email"
               placeholder="email@example.com"
               autocomplete="off"
-              name="email">
+              name="email"
+            >
           </label>
         </div>
 
-        <div>
+        <div class="block">
           <label>
             Password:
             <input type="password" autocomplete="off" name="pass">
@@ -93,33 +97,35 @@
 
         <legend>An interesting fact about you!</legend>
 
-        <div class="form-field">
+        <div class="form-field block">
           Do you love cats?
 
           <label>
-            <input type="radio" name="cat" value="yes">Yes
+            <input type="radio" name="cat" value="yes">
+            Yes
           </label>
 
           <label>
-            <input type="radio" name="cat" value="no">No
+            <input type="radio" name="cat" value="no">
+            No
           </label>
         </div>
 
-        <div>
+        <div class="block">
           <label>
             What is your favorite color?
             <input type="color" name="color">
           </label>
         </div>
 
-        <div>
+        <div class="block">
           <label>
             What time do you go to bed?
             <input type="time" name="time">
           </label>
         </div>
 
-        <div>
+        <div class="block">
           What are your favorite brand of cars?
           <select name="brand" required multiple>
             <option value="bmv">BMW</option>
@@ -128,14 +134,15 @@
           </select>
         </div>
 
-        <div>
+        <div class="block">
           <label for="workj">How do you rate our work?</label>
           <input
             type="range"
             id="workj"
             name="work"
             min="0"
-            max="10">
+            max="10"
+          >
         </div>
       </fieldset>
 
@@ -143,7 +150,7 @@
 
         <legend>Additional info</legend>
 
-        <div>
+        <div class="block">
           <label>
             Comments:
             <textarea
@@ -155,7 +162,7 @@
           </label>
         </div>
 
-        <div>
+        <div class="block">
           Would you recomended us?
           <select name="rec">
             <option value="yes">Yes</option>

@@ -1,5 +1,5 @@
 /* styles go here */
-div:not(:last-child) {
+.block:not(:last-child) {
   margin-bottom: 10px;
 }
 
