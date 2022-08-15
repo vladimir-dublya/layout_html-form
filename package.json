@@ -6,7 +6,7 @@
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
-    "lint": "mate-scripts lint",
+    "lint": "npx linthtml 'src/**/*.html'",
     "test:only": "mate-scripts test",
     "build": "mate-scripts build",
     "deploy": "mate-scripts deploy",
@@ -18,7 +18,7 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@linthtml/linthtml": "^0.8.3",
+    "@linthtml/linthtml": "^0.8.6",
     "@mate-academy/backstop-config": "^1.0.0",
     "@mate-academy/bemlint": "^0.1.1",
     "@mate-academy/eslint-config": "*",
